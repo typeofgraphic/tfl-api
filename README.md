@@ -16,11 +16,14 @@ A new Transport for London API Module for Node.js, because others are incomplete
 3. [optional] Test your credentials and find the main TFL API docs here: <https://api.tfl.gov.uk/>
 
 4. Go back to the config.js file, add in the following:
-
+5. ```
 	var config = {};
+
 		config.tfl = {
 		    appId: 'YOUR_APP_ID',
 		    appKey: 'YOUR_APP_KEY'
 		};
+
 	module.exports = config;
+```
 
