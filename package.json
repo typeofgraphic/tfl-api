@@ -1,8 +1,8 @@
 {
-  "name": "tfl-node",
+  "name": "tfl-api",
   "version": "0.0.0",
   "description": "Node.js wrapper for TFL (Transport for London) API",
-  "main": "index.js",
+  "main": "tfl-node.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
