@@ -1,0 +1,23 @@
+{
+  "name": "tfl-node",
+  "version": "0.0.0",
+  "description": "Node.js wrapper for TFL (Transport for London) API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/typeofgraphic/tfl-node.git"
+  },
+  "keywords": [
+    "tfl",
+    "api"
+  ],
+  "author": "TypeOfGraphic <pbooth80@gmail.com>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/typeofgraphic/tfl-node/issues"
+  },
+  "homepage": "https://github.com/typeofgraphic/tfl-node#readme"
+}
