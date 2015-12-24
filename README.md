@@ -19,10 +19,10 @@ A new Transport for London API Module for Node.js, because others are incomplete
 5. ```
 	var config = {};
 
-		config.tfl = {
-		    appId: 'YOUR_APP_ID',
-		    appKey: 'YOUR_APP_KEY'
-		};
+	config.tfl = {
+	    appId: 'YOUR_APP_ID',
+	    appKey: 'YOUR_APP_KEY'
+	};
 
 	module.exports = config;
 ```
