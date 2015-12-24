@@ -51,4 +51,4 @@ tfl.line.status = function(name, credentials, callback) {
 
 };
 
-module.exports = tfl-api;
+module.exports = tfl;
