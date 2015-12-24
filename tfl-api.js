@@ -4,15 +4,18 @@
 
 var request = require('request');
 
-var tfl = {
+var tflapi = {
     hosts : {
         status_host: "https://api.tfl.gov.uk/Line/",
         status_all_host: "https://api.tfl.gov.uk/Line/Mode/tube/Status?"
     },
-    line: { }
+    line: { },
+    test: function(){
+        return "test function is working"
+    }
 };
  
-tfl.line.status = function(name, credentials, callback) {
+tflapi.line.status = function(name, credentials, callback) {
 
     if ( name == "all"){
         console.log('returning all stations...')
@@ -51,4 +54,4 @@ tfl.line.status = function(name, credentials, callback) {
 
 };
 
-module.exports = tfl;
+module.exports = tflapi;

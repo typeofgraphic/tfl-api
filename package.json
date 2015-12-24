@@ -1,6 +1,6 @@
 {
   "name": "tfl-api",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Node.js wrapper for TFL (Transport for London) API",
   "main": "tfl-api.js",
   "scripts": {
