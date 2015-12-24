@@ -7,13 +7,15 @@ A new Transport for London API Module for Node.js, because others are incomplete
 
 	npm install tfl-api
 
-## usage
+## Setup
 
-Create a config file in the module folder called config.js. 
-Create API credentials at the TFL site: <https://tfl.gov.uk/info-for/open-data-users/>
-Test your credentials and find the main TFL API docs here: <https://api.tfl.gov.uk/>
+1. Create a config file in the module folder called config.js. 
 
-Go back to the config.js file, add in the following:
+2. Create API credentials at the TFL site: <https://tfl.gov.uk/info-for/open-data-users/>
+
+3. [optional] Test your credentials and find the main TFL API docs here: <https://api.tfl.gov.uk/>
+
+4. Go back to the config.js file, add in the following:
 
 	var config = {};
 
