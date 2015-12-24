@@ -17,10 +17,10 @@ var tflapi = {
  
 tflapi.line.status = function(name, credentials, callback) {
 
+    // Use 'all' as the name to return every line
     if ( name == "all"){
-        console.log('returning all stations...')
            
-            var url = tfl.hosts.status_all_host
+            var url = tflapi.hosts.status_all_host
                 + "&app_id=" + credentials.appId + "&app_key=" + credentials.appKey
             
             request({
@@ -35,7 +35,7 @@ tflapi.line.status = function(name, credentials, callback) {
                 });
 
         } else {
-            var url = tfl.hosts.status_host
+            var url = tflapi.hosts.status_host
                 + name
                 + "/Status?"
                 + "detail=False"
